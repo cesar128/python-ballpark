@@ -30,7 +30,7 @@ Install with `pip install ballpark` or `pip3 install ballpark`.
 ['11K', '233K', '1,180K']
 >>>
 >>> # or use the shortcut functions
->>> from ballpark import H, S, E, B
+>>> from ballpark.shortcuts import H, S, E, B
 >>> B([11234.22, 233000.55, 1175125.2])
 ['11K', '233K', '1,180K']
 >>>
